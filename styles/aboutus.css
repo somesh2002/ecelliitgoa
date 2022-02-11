@@ -1,0 +1,56 @@
+#aboutus{
+    background-image: url("../assets/images/aboutusbg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 40px 60px;
+}
+
+#aboutus .header{
+    font-size: 80px;
+    margin-bottom: 50px;
+}
+
+#aboutus .boxes{
+    width: 80%;
+    padding: 20px;
+    display: flex;
+    margin-bottom: 100px;
+
+    
+}
+
+#aboutus .boxes .heading{
+    
+    float:right;
+    display: inline-flex;
+    width: 30%;
+    font-size: 50px;
+    padding: 20px;
+    
+}
+
+#aboutus .boxes .para{
+    width: 70%;
+    font-size: 30px;
+    display: inline-flex;
+    padding: 25px;
+    background-color: rgba(30,30,30,0.6);
+    border-radius: 40px;
+ 
+
+}
+
+footer{
+    padding: 30px 40px 20px;
+    text-decoration: none;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+}
+
+footer ul{
+    list-style: none;
+}

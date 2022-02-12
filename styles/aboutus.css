@@ -27,6 +27,8 @@
     width: 30%;
     font-size: 50px;
     padding: 20px;
+    border: 5px solid yellow;
+
     
 }
 
@@ -41,7 +43,38 @@
 
 }
 
+#aboutus .iicbox .heading{
+    
+    width: 30%;
+    font-size: 50px;
+    padding: 20px;
+    
+}
+
+#aboutus .iicbox .image img{
+    
+    border: 5px solid yellow;
+    margin-top: 20px;
+
+    
+}
+
+#aboutus .iicbox .content{
+    margin-bottom: 40px;
+}
+#aboutus .iicbox .para{
+    width: 70%;
+    font-size: 25px;
+    padding: 25px;
+    margin-left: 10px;
+    background-color: rgba(30,30,30,0.6);
+    border-radius: 40px;
+
+}
+
+
 footer{
+
     padding: 30px 40px 20px;
     text-decoration: none;
 }

@@ -34,6 +34,19 @@
 
 <body>
 
+  <div id="mySidebar" class="sidebar">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+    <a href="#">About</a>
+    <a href="#">Services</a>
+    <a href="#">Clients</a>
+    <a href="#">Contact</a>
+  </div>
+  <div class="navbar text-white" style="position:absolute">
+
+
+    <button id="mubut" class="openbtn" onclick="openNav()">☰ MENU</button>  
+
+  </div>
   <div id="home">
     <div class="header">
       <div class="logo ">
@@ -216,7 +229,18 @@
     integrity="sha512-Eak/29OTpb36LLo2r47IpVzPBLXnAMPAVypbSZiZ4Qkf8p/7S/XRG5xp7OKWPPYfJT6metI+IORkR5G8F900+g=="
     crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   <script>
-    new WOW().init(); 
+    new WOW().init();
+
+    function openNav() {
+    document.getElementById("mySidebar").style.width = "250px";
+    document.getElementById("mubut").style.visibility = "hidden";
+  
+  }
+  
+  function closeNav() {
+    document.getElementById("mySidebar").style.width = "0";
+      document.getElementById("mubut").style.visibility = "visible";
+  }
   </script>
 
 

@@ -193,6 +193,137 @@
 }
 
 
+
+@media screen and (max-width: 700px) {
+    #home{
+        background-image: url("../assets/images/workbg.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding: 60px 2px 10px 20px;
+    
+    }
+    
+    #home .header .logo img{
+        width: 40px;
+        height: auto;
+        margin:auto;
+    }
+    
+    
+    #home .header {
+        display:block;
+        font-size: 25px;
+        margin-left: auto;
+        text-align: center;
+        padding: 20px
+        /* justify-content: space-between; */
+    }
+    
+    #home .header p {
+        font-size: 20px;
+        font-family: opensansbold;
+        /* justify-content: space-between; */
+    }
+    
+    #home .quote{
+        color: blue;
+        width: 100%;
+        font-family: findel;
+        margin-top: 30px;
+        margin-bottom: 40px;
+        text-align: center;
+        font-size: 20px;
+    
+    }
+    
+    .btn-xl {
+        padding: 10px 10px;
+        font-size: 10px;
+        border-radius: 5px;
+        align-items: center;
+        
+    }
+    
+    #aboutus{
+        padding: 40px 5px ;
+    
+    }
+    
+    #aboutus .heading{
+        margin: auto;
+        font-size: 35px;
+        margin-bottom: 50px;
+        font-family: heading;
+        
+    }
+    
+    #aboutus .container-fluid .para{
+    
+        margin: auto;
+        width: 100%;
+        font-size: 20px;
+        margin-bottom: 80px;
+        font-family: para;
+    }
+    
+    #recentevent{
+        padding: 0px 0px 0px;
+        position: relative;
+    
+    }
+    
+
+    
+    #demo .content{
+        width: 100%;
+    
+        margin: auto;
+        font-size: 25px;
+        font-style: para;
+        color: whitesmoke;
+        padding: 250px 20px;
+    }
+    
+    
+    #events{
+        padding: 40px 10px;
+        background-image: url("../assets/images/aboutusbg.jpg");
+        background-size: cover;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+    }
+    
+    #events .heading{
+        font-size: 30px;
+        margin-bottom: 30px;
+        font-family: heading;
+    }
+    
+    .eventcontent{
+        width: 100%;
+        padding: 20px;
+        font-family: para;
+    
+    }
+    
+    .eventcontent .Image img{
+        width: 100%;
+        height: auto;
+    }
+    
+    #events button{
+        position: relative;
+        margin-top: 20px;
+    
+    }
+    
+    .info h5{
+        font-family: heading;
+    
+    }
+  }
+
+
 footer{
     padding: 30px 40px 20px;
     text-decoration: none;

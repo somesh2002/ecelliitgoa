@@ -1,0 +1,26 @@
+@font-face {
+    font-family: heading;
+    src: url(../fonts/hk-grotesk/HKGrotesk-Bold.otf);
+ }
+
+
+ @font-face {
+    font-family: para;
+    src: url(../fonts/hk-grotesk/HKGrotesk-LightLegacy.otf);
+ }
+
+
+ @font-face {
+    font-family: findel;
+    src: url(../fonts/Findel/Findel-Display-Regular.otf);
+ }
+
+ @font-face {
+    font-family: opensanslight;
+    src: url(../fonts/Open_Sans/static/OpenSans/OpenSans-Light.ttf);
+ }
+
+ @font-face {
+    font-family: opensansbold;
+    src: url(../fonts/Open_Sans/static/OpenSans/OpenSans-ExtraBold.ttf);
+ }

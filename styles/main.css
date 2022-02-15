@@ -8,13 +8,16 @@
     overflow-x: hidden;
     transition: 0.5s;
     padding-top: 60px;
+    font-family: para;
+
   }
   
   .sidebar a {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
     font-size: 25px;
-    color: #818181;
+    color: white;
+    font-size: 15px;
     display: block;
     transition: 0.3s;
   }
@@ -37,7 +40,7 @@
       top:20px;
     font-size: 20px;
     cursor: pointer;
-    background-color: rgba(0,0,0,0);
+    background-color:#111;
     color: white;
     padding: 10px 15px;
     border: none;
@@ -69,6 +72,7 @@
 #home .header {
     display:flex;
     font-size: 70px;
+    font-family: opensansbold;
     margin-left: 10px;
     padding: 20px
     /* justify-content: space-between; */
@@ -76,12 +80,14 @@
 
 #home .header p {
     font-size: 60px;
+    font-family: opensansbold;
     /* justify-content: space-between; */
 }
 
 #home .quote{
     color: blue;
     width: 50%;
+    font-family: findel;
     margin-top: 30px;
     margin-bottom: 40px;
 
@@ -106,6 +112,7 @@
     margin: auto;
     font-size: 35px;
     margin-bottom: 50px;
+    font-family: heading;
     
 }
 
@@ -115,6 +122,7 @@
     width: 80%;
     font-size: 25px;
     margin-bottom: 80px;
+    font-family: para;
 }
 
 #recentevent{
@@ -129,10 +137,21 @@
     top: 30px;
     width: 100%;
     margin:auto;
+    font-family: heading;
 
     font-size: 30px;
 
 
+}
+
+#demo .content{
+    width: 100%;
+
+    margin: auto;
+    font-size: 50px;
+    font-style: para;
+    color: whitesmoke;
+    padding: 300px;
 }
 
 
@@ -147,11 +166,14 @@
 #events .heading{
     font-size: 30px;
     margin-bottom: 40px;
+    font-family: heading;
 }
 
 .eventcontent{
     width: 80%;
     padding: 10px;
+    font-family: para;
+
 }
 
 .eventcontent .Image img{
@@ -165,10 +187,17 @@
 
 }
 
+.info h5{
+    font-family: heading;
+
+}
+
 
 footer{
     padding: 30px 40px 20px;
     text-decoration: none;
+    font-family: para;
+
 }
 
 footer a{

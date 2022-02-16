@@ -6,16 +6,79 @@ body{
 }
 
 #meettheteam{
-    padding: 50px 80px;
+    padding: 50px 70px 10px;
 
 }
 
+#meettheteam .heading{
+    font-family: heading;
+    font-size: 45px;
+}
+
+#meettheteam .teamcontent{
+    font-family: para;
+}
+
+#meettheteam .container-fluid{
+    align-items: center;
+}
 
 #meettheteam .row .card{
-    flex-direction: row;
-    background-color: rgba(0,0,0,0);
-    width: 80%;
+    background-color: rgba(50,50,50,0.5);
+    width: 100%;
+    padding:0 0 10px;
+    font-family: para;
+    font-size: 15px;
     
+}
+
+#meettheteam .row .card .image{
+    height: cover;
+
+}
+
+.card-body{
+    font-size: 15px;
+}
+
+.team .header{
+    font-family: header;
+}
+
+.team-card{
+    width: 80%;
+    margin: 20px;
+    font-family: para;
+}
+
+
+
+@media screen and (max-width : 700px) {
+    body{
+        background-image: url("../assets/images/aboutusbg.jpg");
+        background-size: 100% 100%;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+    }
+    
+    #meettheteam{
+        padding: 100px 30px;
+   
+    
+    }
+    
+    
+    #meettheteam .row .card{
+        flex-direction: row;
+        background-color: rgba(0,0,0,0);
+        width: 100%;
+
+        
+    }
+
+    .team-card{
+        width: 90%;
+    }
 }
 
 footer{

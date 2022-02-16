@@ -8,6 +8,8 @@
 
     <!-- Bootstrap CSS -->
     <link href="./bootstrap-5.0.2-dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="styles/fonts.css" rel="stylesheet">
+    <link href="styles/sidebar.css" rel="stylesheet">
     <link href="./styles/events.css" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -140,7 +142,7 @@
 
 
 
-    <footer class="section footer-classic bg-dark  text-white" style="background: #2d3246;">
+    <footer id="contactus" class="section footer-classic bg-dark  text-white" style="background: #2d3246;">
         <div class="container">
             <div class="row row-30">
 
@@ -181,7 +183,21 @@
             </div>
         </div>
     </footer>
-
+    <div id="mySidebar" class="sidebar ">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">x</a>
+        <a href="index.html">Home</a>
+        <a href="aboutus.html">About</a>
+        <a href="events.html">Events</a>
+        <a href="team.html">Team</a>
+        <a href="./navriti/index.html">Navriti</a>
+        <a href="#contactus">Contact</a>
+    </div>
+    <div class="navbar text-white" style="position:absolute">
+    
+    
+        <button id="mubut" class="openbtn" onclick="openNav()">☰ MENU</button>
+    
+      </div>
 
 
     <script src=”https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js”
@@ -195,7 +211,9 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"
         integrity="sha512-Eak/29OTpb36LLo2r47IpVzPBLXnAMPAVypbSZiZ4Qkf8p/7S/XRG5xp7OKWPPYfJT6metI+IORkR5G8F900+g=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script>
+        <script src="scripts/sidenavbar.js"></script>
+
+   <script>
         new WOW().init(); 
     </script>
 </body>

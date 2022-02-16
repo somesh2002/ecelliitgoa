@@ -9,13 +9,15 @@
 #aboutus .header{
     font-size: 80px;
     margin-bottom: 50px;
+    font-family: header;
 }
 
 #aboutus .boxes{
-    width: 80%;
+    width: 100%;
     padding: 20px;
     display: flex;
-    margin-bottom: 100px;
+    margin-bottom: 80px;
+
 
     
 }
@@ -25,51 +27,145 @@
     float:right;
     display: inline-flex;
     width: 30%;
-    font-size: 50px;
+    font-size: 40px;
     padding: 20px;
     border: 5px solid yellow;
+    font-family: heading;
+    justify-content: center;
+
 
     
 }
 
 #aboutus .boxes .para{
     width: 70%;
-    font-size: 30px;
+    font-size: 20px;
     display: inline-flex;
     padding: 25px;
     background-color: rgba(30,30,30,0.6);
     border-radius: 40px;
- 
+    font-family: para;
+
 
 }
 
+#aboutus .iicbox{
+    align-items: center;
+}
 #aboutus .iicbox .heading{
     
-    width: 30%;
-    font-size: 50px;
+    width: 100%;
+    font-size: 40px;
     padding: 20px;
+    font-family: heading;
+
     
 }
 
 #aboutus .iicbox .image img{
-    
+    width: 100%; 
     border: 5px solid yellow;
-    margin-top: 20px;
+    margin: 20px auto;
+
 
     
 }
 
 #aboutus .iicbox .content{
     margin-bottom: 40px;
+    display: inline-flex;
 }
 #aboutus .iicbox .para{
     width: 70%;
-    font-size: 25px;
+    font-size: 20px;
     padding: 25px;
     margin-left: 10px;
     background-color: rgba(30,30,30,0.6);
     border-radius: 40px;
+    font-family: para;
 
+}
+
+@media screen and (max-width : 700px) {
+    #aboutus{
+        background-image: url("../assets/images/aboutusbg.jpg");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        background-attachment: fixed;
+        padding: 80px 20px;
+    }
+    
+    #aboutus .header{
+        font-size: 50px;
+        margin-bottom: 50px;
+        font-family: header;
+    }
+    
+    #aboutus .boxes{
+        width: 90%;
+        padding: 10px;
+     display: block;
+        margin-bottom: 50px;
+    
+        
+    }
+    
+    #aboutus .boxes .heading{
+        
+    
+        width: 90%;
+        font-size: 20px;
+        padding: 10px 10px;
+        border: none;
+        font-family: heading;
+    
+        
+    }
+    
+    #aboutus .boxes .para{
+        width: 100%;
+        font-size: 15px;
+        display: inline-flex;
+        padding: 30px 25px;
+        background-color: rgba(30,30,30,0.6);
+        border-radius: 40px;
+     
+    
+    }
+    
+    
+    #aboutus .iicbox{
+        display: block;
+    }
+    #aboutus .iicbox .heading{
+        
+        width: 100%;
+        font-size: 30px;
+        padding: 20px;
+        
+    }
+    
+    #aboutus .iicbox .image img{
+        
+        border: 5px solid yellow;
+        margin-top: 20px;
+        
+    }
+    
+    #aboutus .iicbox .content{
+        margin-bottom: 40px;
+        display: block;
+    }
+    #aboutus .iicbox .para{
+        width: 100%;
+        font-size: 15px;
+        padding: 25px;
+        margin-left: 10px;
+        background-color: rgba(30,30,30,0.6);
+        border-radius: 40px;
+    
+    }
+    
 }
 
 
